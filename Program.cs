@@ -14,6 +14,16 @@ namespace LilLego
                 IsDefeated = true
             };
             rockPowerChallenges.Defeating(rockPowerChallenges.IsDefeated);
+
+            var expressYourself = new ExpressYourself
+            {
+                Type = "Unlock a new look",
+                ChallengesCompleted = 3,
+                Hair = "mullet",
+                Clothing = "denim jacket",
+                UpgradeNewLook = true
+            };
+            expressYourself.Upgrading(expressYourself.UpgradeNewLook);
         }
     }
 }
