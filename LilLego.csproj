@@ -44,6 +44,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rockband\ExpressYourself.cs" />
+    <Compile Include="Rockband\GoOnTour.cs" />
+    <Compile Include="Rockband\RockPowerChallenges.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
