@@ -61,8 +61,8 @@ namespace LilLego.Rockband
                 _isDefeated = true;
                 return true;
             }
-            _isDefeated = false;
-            return false;
+                _isDefeated = false;
+                return false;
         }
     }
 }
